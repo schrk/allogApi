@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Univali.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Univali.Api.Controllers.AddressesController.CreateAddress(System.Int32,Univali.Api.Models.AddressForCreationDto)">
+            <summary>
+            Create a address for a specific customer
+            </summary>
+            <param name="customerId">The id of the address customer</param>
+            <param name="addressForCreationDto">The address to create</param>
+            <returns>An ActionResult of type Address</returns>
+            <response code="422">Validation error</response>
+        </member>
+        <member name="T:Univali.Api.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.SeedingData">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.SeedingData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.SeedingData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.SeedingData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Models.AddressForCreationDto">
+            <summary>
+            An Address with Street and City
+            </summary>
+        </member>
+        <member name="P:Univali.Api.Models.AddressForManipulationDto.Street">
+            <summary>
+            The name street
+            </summary>
+        </member>
+        <member name="P:Univali.Api.Models.AddressForManipulationDto.City">
+            <summary>
+            The name city
+            </summary>
+        </member>
+    </members>
+</doc>
